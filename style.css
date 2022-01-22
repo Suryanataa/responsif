@@ -1,0 +1,19 @@
+@media (max-width: 767px) {
+	.card-2 {
+		background-color: salmon;
+		color: white;
+	}
+
+	.card {
+		margin-bottom: 15px;
+	}
+}
+
+.card {
+	transition: 0.5s all;
+}
+
+.card:hover {
+	cursor: pointer;
+	box-shadow: 6px 6px 15px rgb(255, 90, 72);
+}
